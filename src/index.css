@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  /* Bold Typography Theme Tokens */
+  --bg-dark: #050505;
+  --surface-dark: #0d0f14;
+  --surface-accent: #161922;
+  --primary: #00ff88;
+  --primary-hover: #00e077;
+  --success: #00ff88;
+  --success-bg: rgba(0, 255, 136, 0.15);
+  --error: #ff3366;
+  --error-bg: rgba(255, 51, 102, 0.15);
+  --warning: #ffb703;
+  --text-main: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.5);
+
+  /* Layout & Spacing */
+  --radius-card: 8px;
+  --radius-btn: 4px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-smooth: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+code, kbd, pre, .font-mono {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
