@@ -1,6 +1,0 @@
-{
-  "name": "AI Quiz Master",
-  "description": "An interactive, AI-powered quiz platform built with Google AI Studio and Gemini, featuring dynamic quiz generation, adaptive difficulty, instant grading, hints, and detailed performance evaluations.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
